@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #c1c1c1;
+    
+}
+
+h1,h2,h3{
+    font-family: 'Russo One', sans-serif;
+    color:"#eaeaea"
+}
+p li{
+    font-family: 'Roboto Mono', monospace;
+    color:"#fff"
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-size: 19px;
+    padding: 1rem;
+}
+.name h1{
+    text-align: center;
+    font-size: 50px;
+}
+.info{
+    width: 90%;
+    border:1px solid grey;
+    margin: 0 auto;
+    font-size: 12px;
+    background-color:#fff;
+
+}
+.developer{
+    background-color: #c1c1c1;
+}
+.info h2{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin: 0;
+    padding: 10px;
+}
+.mypic img{
+    width: 270px;
+    height:260px
+}
+.preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem;
+}
+.about_company{
+    border: 1px solid blueviolet;
+    width: 350px;
+    height: 220px;
+    padding:1rem;
+    background-color:grey;
+}
+
+.about_company h3{
+    font-size: 24px;
+}
+.about_company p{
+    font-size: 19px;
+    line-height: 1.6;
+}
+.about_me{
+    background-color: white;
+    padding: 2rem;
+}
+.skills{
+    display:flex;
+    justify-content: space-around;
+    background-color: #f0ead6;
+    width:500px;
+    
+}
+.skills ul li{    
+    padding:1rem;
+    list-style: none;
+}
+
+
+.resume a{
+ text-decoration: none;
+ background-color: green;
+ padding: 7px 13px;
+ color: white;
+ border-radius: 5px;
+}
+.projects{
+    padding:1rem
+}
+.past-projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+}
+.todo-project{
+    width:320px;
+    height:350px;
+    border:1px solid #AAAAAA;
+    margin:2rem 0;
+   
+}
+
+.project-image{
+    width: 100%;
+    height:230px
+}
+.about_project{
+    background-color: white;
+    margin-top: -22px;
+    padding: 1rem;
+}
+
+.missed-projects{
+    margin:3rem
+}
+.missed-projects p{
+    font-size: 22px;
+}
+.missed-projects a{
+    font-size: 16px;
+    padding: 7px 12px;
+    width: 80px;
+    height:40px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.missed-projects a:hover{
+    background-color: rgb(1, 116, 1);
+}
+
+.footer{
+    background-color: white;
+    padding: 1rem;
+}
+.footer h2{
+    text-align: center;
+}
+
+.icons ul{
+    text-align: center;
+    padding: 0px;
+}
+
+.skill-list{
+    padding: 0;
+}
+.todo-project a {
+    height:50px;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.linkedIn:hover{
+    font-size: 18px;
+}
+.resume p a:hover{
+  background-color: rgb(8, 117, 4);
+}
+
+.about_project a:hover{
+    background-color: darkviolet;
+}
+
+@media screen and (max-width:500px){
+    .name h1{
+        font-size: 30px;
+    }
+    .skill-list{
+        font-size: 7px;
+    }
+    .preview{
+        padding: 2rem;
+    }
+    .about_company{
+       margin-top: 2rem;
+       /* height:255px */
+    }
+    .skills{
+        width: 100%;
+        height: 230px;
+    }
+    .skills ul li{
+        padding: 10px 5px;
+        font-size: 17px;
+
+    }
+    .missed-projects{
+      margin:8px
+    }
+    .missed-projects p{
+        font-size: 16px;
+    }
+}
